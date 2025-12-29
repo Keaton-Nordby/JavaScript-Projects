@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logic {
+            display: flex;
+        }
+        input {
+            width: 275px;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        button {
+            margin-left: 10px;
+            border-radius: 5px;
+            background-color: green;
+            color: white;
+            border: none;
+            width: 75px;
+            padding: 5px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        button:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <h1>Palindrome Checker</h1>
+    <div class="logic">
+        <input id="input" type="text" placeholder="Type something here...">
+        <button onclick="check()">Check</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
